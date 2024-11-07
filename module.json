@@ -1,17 +1,29 @@
 {
-	"name": "right-click-enabler",
-	"title": "Right-click Enabler",
-	"description": "Allows you to use the standard context menu in places where Foundry does not use right-click.",
-	"author": "relick",
-	"version": "0.0.3",
-	"minimumCoreVersion": "0.6.4",
-	"compatibleCoreVersion": "0.8.9",
+	"id": "enable-context-menu",
+	"title": "Enable Context Menu",
+	"description": "Allows you to use the standard context menu in places where Foundry does not use right-click for its own functionality.",
+	"version": "0.0.4",
+	
+	"compatibility": {
+		"minimum": "0.6.4",
+		"verified": "12",
+		"maximum": "13"
+	},
 
 	"scripts": [
 		"./main.js"
 	],
 
+
+	"authors": [
+		{
+			"id": "relick",
+			"discord": "@relick",
+			"url": "https://kasha.dev"
+		}
+	],
+	
 	"url": "https://github.com/relick/FoundryVTT-Right-Click-Enabler",
-	"manifest": "https://raw.githubusercontent.com/relick/FoundryVTT-Right-Click-Enabler/master/module.json",
-	"download": "https://github.com/relick/FoundryVTT-Right-Click-Enabler/archive/0.0.3.zip"
+	"manifest": "https://raw.githubusercontent.com/relick/FoundryVTT-Right-Click-Enabler/refs/heads/master/module.json",
+	"download": "https://github.com/relick/FoundryVTT-Right-Click-Enabler/archive/refs/tags/0.0.4.zip"
 }
