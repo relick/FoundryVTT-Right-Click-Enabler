@@ -2,10 +2,10 @@
 	"id": "right-click-enabler",
 	"title": "Enable Context Menu",
 	"description": "Allows you to use the standard context menu in places where Foundry does not use right-click for its own functionality.",
-	"version": "1.0",
+	"version": "1.0.1",
 	
 	"compatibility": {
-		"minimum": "0.6.4",
+		"minimum": "9",
 		"verified": "12"
 	},
 
@@ -23,5 +23,5 @@
 	
 	"url": "https://github.com/relick/FoundryVTT-Right-Click-Enabler",
 	"manifest": "https://raw.githubusercontent.com/relick/FoundryVTT-Right-Click-Enabler/refs/heads/master/module.json",
-	"download": "https://github.com/relick/FoundryVTT-Right-Click-Enabler/archive/refs/tags/1.0.zip"
+	"download": "https://github.com/relick/FoundryVTT-Right-Click-Enabler/archive/refs/tags/1.0.1.zip"
 }
